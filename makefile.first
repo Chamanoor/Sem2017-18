@@ -1,0 +1,5 @@
+graphics : main.c FirstTree.c String1.c straightLine.c circle.c
+	gcc -o graphics  main.c FirstTree.c String1.c straightLine.c circle.c -lglut -lGLU -lGL -lm
+
+
+
