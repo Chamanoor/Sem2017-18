@@ -1,0 +1,3 @@
+tree: SecondTree.c String2.c header2.h
+	gcc SecondTree.c String2.c header2.h -o tree -lglut -lGLU -lGL -lm
+
